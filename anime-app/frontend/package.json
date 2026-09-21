@@ -1,0 +1,23 @@
+{
+  "name": "anime-app-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AniKita - web anime mobile-first (React + Vite) untuk PRD Aplikasi Anime Mobile",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "icons": "node scripts/generate-icons.cjs",
+    "verify:api": "node scripts/verify-api.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}

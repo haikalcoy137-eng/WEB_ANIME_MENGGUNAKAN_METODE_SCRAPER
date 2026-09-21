@@ -1,0 +1,24 @@
+# Dependensi & hasil build
+node_modules/
+dist/
+*.log
+
+# Artefak development
+frontend/install.done
+frontend/build.done
+frontend/verify.done
+frontend/public/icons/*.tmp
+
+# Tools & tunnel
+tools/
+tunnel.log
+
+# Environment lokal
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
